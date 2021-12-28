@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE taglib
+        PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.2//EN"
+        "http://java.sun.com/j2ee/dtd/web-jsptaglibrary_1_2.dtd">
+<taglib>
+    <!-- 标签库版本号 -->
+    <tlib-version>1.0</tlib-version>
+    <!-- JSP版本号 -->
+    <jsp-version>2.0</jsp-version>
+    <!-- 当前标签库的前缀 -->
+    <short-name>bc</short-name>
+    <tag>
+        <!-- 自定义标签的名称，在页面中通过它来使用标签 -->
+        <name>Hello</name>
+        <!-- 自定义标签的实现类路径 -->
+        <tag-class>mao.jsp_custom_label.helloTag</tag-class>
+        <!-- 正文内容正文内容，没有则用 empty 表示 -->
+        <body-content>empty</body-content>
+        <!-- 自定义标签的功能描述 -->
+        <description>输出内容</description>
+    </tag>
+</taglib>
